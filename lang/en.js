@@ -1,30 +1,28 @@
 // ---------- Navbar titles
 const enNavbarData = {
-  title: " Your name ",
+  title: " Anna Gaw ",
   Home: "Home",
-  publications: "publications",
-  Research: "Research",
-  Jobs: "Jobs",
-  Contact: "Contact",
+  experience: "Experience",
+  research: "Research",
+  portfolio: "Portfolio",
+  contact: "Contact",
 };
 
 // ---------- Home page data
 const enHomePageData = {
-  name: " Your name ",
-  jobTitle: " Job title ",
-  home_title: "About me",
+  name: " Anna Gaw ",
+  jobTitle: " Research Technician ",
+  home_title: "Home",
   home_content: `
   <div>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-      ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <p> I am a research assistant at the University of Colorado in an evolutionary ecology lab focused on the impacts of a changing climate on plants. I am working on projects in vernal pools in California and alpine ecosystems in Colorado, studying (endangered) plants through seed bank, germination, and reciprocal transplant experiments. I am also working towards a certificate in Geographic Information Systems. I appreciate interdisciplinary work approaching ecology and conservation from multiple angles involving people and the planet.
     </p>
     <h2 class='title'> Main works </h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh  </p>
+    <p> Areas of interest:  </p>
     <ul>
-      <li> Heuristics</li>
-      <li> Policy planning </li>
-      <li> Flexiblity to details </li>
+      <li> Research </li>
+      <li> Geographic Information Systems </li>
+      <li> Conservation </li>
     </ul>
   </div>
   `,
@@ -32,87 +30,54 @@ const enHomePageData = {
 
 // ---------- Publications page data
 const enPublicationsPageData = {
-  type_one_title: "Journal Papers",
+  type_one_title: "Experience",
 
   type_one_items: [
     {
-      title: `Dancing to the beat of climate change: Studying visual frames on TikTok through the left-right divide among U.S. politicians (with ).`,
-      abstract: `Politicians across the political spectrum have taken to TikTok in an attempt to reach young voters by producing original videos. This novel trend has turned TikTok into the new polarizing ring in the political communication battle, deepening the partisan breach around issues such as climate change. However`,
-      date: "",
-      link: "http://link.com",
-      github: "",
-      download: "",
-      writers: ["Claudio Cioffi-Revilla", "masoud Claudio "],
+      title: `Endangered Plants Research Technician`,
+      company: `University of Colorado, Boulder`,
+      abstract: `Conducted field work- collecting soil samples and seeds of two endangered vernal pool plant species; carry out seedbank and germination experiments including planning, troubleshooting, and managing students`,
+      date: "September 2024 - present",
     },
     {
-      title: `“Now you are speaking my language” Language-specific transparency and legislative negotiations in the Council of Ministers of the European Union. (with ).`,
-      abstract: `Politicians across the political spectrum have taken to TikTok in an attempt to reach young voters by producing original videos. This novel trend has turned TikTok into the new polarizing ring in the political communication battle, deepening the partisan breach around issues such as climate change. However`,
-      date: "1996",
-      link: "",
-      github: "http://github.com",
-      writers: ["Claudio Cioffi-Revilla", ""],
+      title: `Farmers Market Employee`,
+      company: `Ela Family Farms`,
+      abstract: `Served customers; unload, organize, and sell 40+ varieties of fruit from a sustainable farm; worked well with team members`,
+      date: "seasonal: 2024- present",
+    },
+    {
+      title: `Wildlife Habitat Biologist`,
+      company: `Bird Conservancy of the Rockies`,
+      abstract: `- Created conservation plans and provided technical assistance for conservation of 28,000 acres of grassland habitat
+- Conducted vegetation surveys, soil health assessments, habitat assessments, and learned to identify 75+ plant species
+- Managed multiple projects and deadlines; maintained inventory records
+- Engaged in community outreach such as event tables, planning and leading workshops, guest teaching classes
+- Sustained partnerships with non-profi t, federal, state, private organizations, and individuals
+- Provided excellent customer service, protected confi dential client information
+- Served as a member of the Diversity, Equity, Inclusion, and Accessibility Committee`,
+      date: "April 2023 - August 2024",
     },
   ],
 
-  type_two_title: "Under Review",
+  type_two_title: "Education",
   type_two_items: [
     {
-      title: `Elena Reinaga. 2016. If I were born again I would still be a sex worker. P. Purdy and N. Umansky. OpenDemocracy.`,
-      abstract: ``,
-      date: "1996",
-      link: "",
-      github: "",
-      writers: [],
+      title: `Master of Science: Biodiversity and Global Change`,
+      school: `University College London`,
+      date: "2023",
     },
     {
-      title: `“Now you are speaking my language” Language-specific transparency and legislative negotiations in the Council of Ministers of the European Union. (with ).`,
-      abstract: `we adopt an elite-focused approach to explore the ways in which left and right-leaning American political elites differ in their visual and emotional framing of climate change. Overall, this study provides new insight into how politicians across party lines communicate about critical and polarizing political issues, such as climate change, by adapting to novel online communication channels.`,
-      date: "1996",
-      link: "http://link.com",
-      github: "http://github.com",
-      writers: ["Claudio Cioffi-Revilla", "masoud Claudio "],
+      title: `Graduate Certificate: Geographic Information Systems`,
+      school: `University of Colorado, Denver`,
+      date: "2025",
     },
+    {
+      title: `Bachelor of Arts: Ecology and Evolutionary Biology`,
+      school: `University of Colorado, Boulder, (transferred from Colorado College)`,
+      date: "2021",
+    },  
   ],
 
-  type_three_title: "Book Chapters",
-  type_three_items: [
-    {
-      title: `Elena Reinaga. 2016. If I were born again I would still be a sex worker. P. Purdy and N. Umansky. OpenDemocracy.`,
-      abstract: ``,
-      date: "",
-      link: "",
-      github: "",
-      writers: [],
-    },
-    {
-      title: `“Now you are speaking my language” Language-specific transparency and legislative negotiations in the Council of Ministers of the European Union. (with ).`,
-      abstract: `we adopt an elite-focused approach to explore the ways in which left and right-leaning American political elites differ in their visual and emotional framing of climate change. Overall, this study provides new insight into how politicians across party lines communicate about critical and polarizing political issues, such as climate change, by adapting to novel online communication channels.`,
-      date: "1996",
-      link: "http://link.com",
-      github: "http://github.com",
-      writers: ["Claudio Cioffi-Revilla"],
-    },
-  ],
-
-  type_four_title: "",
-  type_four_items: [
-    {
-      title: `Elena Reinaga. 2016. If I were born again I would still be a sex worker. P. Purdy and N. Umansky. OpenDemocracy.`,
-      abstract: ``,
-      date: "",
-      link: "",
-      github: "",
-      writers: [],
-    },
-    {
-      title: `“Now you are speaking my language” Language-specific transparency and legislative negotiations in the Council of Ministers of the European Union. (with ).`,
-      abstract: `we adopt an elite-focused approach to explore the ways in which left and right-leaning American political elites differ in their visual and emotional framing of climate change. Overall, this study provides new insight into how politicians across party lines communicate about critical and polarizing political issues, such as climate change, by adapting to novel online communication channels.`,
-      date: "1996",
-      link: "http://link.com",
-      github: "http://github.com",
-      writers: ["Claudio Cioffi-Revilla"],
-    },
-  ],
 };
 
 // ---------- Research page data
